@@ -1,0 +1,169 @@
+.c-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2em;
+}
+
+.c-right h6 {	
+	color: white;
+	font-size: .75rem;
+	font-weight:3;	
+	margin: 0px;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.card-body hr {
+	border: 1.5px solid gold;
+	width: 7em;
+}
+
+.click-box {
+	display: flex;
+	margin: 1em;
+	margin: 2em 12em 3em 12em;
+}
+
+.dropdown-item:hover {
+	background-color: gold;
+	color: white;
+}
+
+.do-good {	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2em;
+}
+
+.foot-elem {
+	margin-right: 1em;
+}
+
+footer {
+	background-color: #262626;
+	display: flex;
+	flex-direction: column;	
+	padding: 2em;
+}
+
+footer h6 {
+	font-weight: 3;
+}
+
+.footer-link {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer-link:hover {
+	color: gold;
+}
+
+footer p {
+	color: white;
+	display: flex;
+	font-size: .75rem;
+	flex-direction: column;
+	text-decoration: none;
+	margin: 0px;	
+}
+
+footer p:hover {
+	color: gold;
+	text-decoration: none;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;	
+	padding-left: 2em;
+	padding-right: 2em
+}
+
+
+form {
+	padding-right: 3em;
+}
+
+.good-box {
+	background-color: #eee;
+	cursor: pointer;
+	margin: 0 0 .5em 0;
+	padding: 1em;
+}
+
+.good-text {
+	border: .25em solid gold;
+	height: 22em;	
+	overflow: scroll;
+	padding: 1em;	
+}
+
+.logo {
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-right: 1em;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+.activeBox {
+	background-color: gold;
+}
+
+
+.tag {
+	color: gold;
+	display: flex;
+	font-weight: 3;	
+	justify-content: center;
+	margin: 1em;
+}
+
+@media screen and (max-width: 900px) {
+
+	   .carousel-caption {
+	  	margin-bottom: 0px;
+	  }
+	  .carousel-caption h4 {
+	  	display: none;
+	  }
+	  .carousel-indicators {
+	  	display: none;
+	  }
+	  .click-box {
+	    flex-direction: column;
+	  }
+	  .good-box {
+	  	margin: 0em .15em 0em .15em;
+	  }
+	  .good-list {
+	  	display: flex;
+	  	flex-direction: row;
+	  	margin-bottom: 0px;
+	  }
+	  .logo {
+		margin-right: 0em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.btn {
+	  	display: none;
+	  	
+	  }
+	.carousel-caption h1, .carousel-caption h2 {
+	  	font-size: 1.25rem;
+	  }
+}
